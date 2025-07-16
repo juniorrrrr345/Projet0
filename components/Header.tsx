@@ -9,9 +9,8 @@ export default function Header() {
     <div className="bg-dark-100 min-h-screen">
       {/* Top Bar */}
       <div className="flex items-center justify-between px-4 py-2 bg-dark-200">
-        <button className="text-white text-sm font-medium">
-          <X size={20} />
-        </button>
+        {/* Suppression du bouton X */}
+        <div></div>
         
         <div className="text-center">
           <div className="flex items-center justify-center gap-2">
