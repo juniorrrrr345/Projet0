@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   images: {
-    domains: ['localhost'],
-    formats: ['image/webp', 'image/avif'],
+    unoptimized: true,
   },
-  compress: true,
-  poweredByHeader: false,
-  generateEtags: false,
+  trailingSlash: false,
   reactStrictMode: true,
-  swcMinify: true,
 }
 
 module.exports = nextConfig

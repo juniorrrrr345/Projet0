@@ -15,14 +15,12 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://hashtag-boutique.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'HASHTAG BOT - Boutique en ligne',
     description: 'Boutique en ligne HASHTAG BOT - Numéro 1 dans le Nord Pas de Calais',
-    url: 'https://hashtag-boutique.vercel.app',
     siteName: 'HASHTAG BOT',
     locale: 'fr_FR',
     type: 'website',
