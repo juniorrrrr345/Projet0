@@ -3,9 +3,9 @@ import BottomNavigation from '@/components/BottomNavigation'
 
 export default function CanalPage() {
   return (
-    <main className="min-h-screen bg-dark-100">
+    <div className="min-h-screen bg-dark-100 flex flex-col">
       <Header />
-      <div className="pb-20 px-4 py-6">
+      <div className="flex-1 pb-20 px-4 py-6">
         <div className="max-w-md mx-auto">
           <h1 className="text-white text-2xl font-bold mb-6 text-center">Nos Canaux</h1>
           
@@ -64,6 +64,6 @@ export default function CanalPage() {
         </div>
       </div>
       <BottomNavigation />
-    </main>
+    </div>
   )
 }

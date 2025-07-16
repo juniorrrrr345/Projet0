@@ -4,12 +4,12 @@ import BottomNavigation from '@/components/BottomNavigation'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-dark-100">
+    <div className="min-h-screen bg-dark-100 flex flex-col">
       <Header />
-      <div className="pb-20">
+      <div className="flex-1 pb-20">
         <ProductGrid />
       </div>
       <BottomNavigation />
-    </main>
+    </div>
   )
 }

@@ -3,9 +3,9 @@ import BottomNavigation from '@/components/BottomNavigation'
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-dark-100">
+    <div className="min-h-screen bg-dark-100 flex flex-col">
       <Header />
-      <div className="pb-20 px-4 py-6">
+      <div className="flex-1 pb-20 px-4 py-6">
         <div className="max-w-md mx-auto">
           <h1 className="text-white text-2xl font-bold mb-6 text-center">Contact</h1>
           
@@ -63,6 +63,6 @@ export default function ContactPage() {
         </div>
       </div>
       <BottomNavigation />
-    </main>
+    </div>
   )
 }
