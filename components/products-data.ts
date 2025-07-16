@@ -18,10 +18,16 @@ const products = [
     image: '/product2.jpg',
     overlayLabel: 'DRY-SIFT 90U',
     overlayEmojis: ['🧨', '🧨'],
-    title: 'Lemon Haze 🍋🍋',
-    subtitle: 'DRY-SIFT 90u 🧨🧨',
-    icons: ['⭐', '⭐'],
+    title: 'DRY-SIFT',
+    subtitle: '90u',
+    icons: ['🧨', '🧨'],
     category: 'Dry-Sift',
+    strain: 'Lemon Haze 🍋🍋',
+    description: [
+      '90u premium feu feu 🔥',
+      'Curage au top, terpènes de fou 😜'
+    ],
+    features: ['TOP', 'TOP'],
     prices: [
       { label: '25g', value: '150€' },
       { label: '50g', value: '250€' },
