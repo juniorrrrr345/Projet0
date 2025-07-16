@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-dark-100">
       <Header />
-      <ProductGrid />
+      <div className="pb-20">
+        <ProductGrid />
+      </div>
       <BottomNavigation />
     </main>
   )

@@ -1,6 +1,6 @@
 'use client'
 
-import { Home, Star, Info, Send, Mail } from 'lucide-react'
+import { Home, Info, Send, Mail } from 'lucide-react'
 import Link from 'next/link'
 
 export default function BottomNavigation() {
@@ -15,13 +15,7 @@ export default function BottomNavigation() {
             <div className="w-6 h-0.5 bg-primary-blue mt-1"></div>
           </button>
         </Link>
-        {/* Pack Promo */}
-        <Link href="/pack-promo">
-          <button className="flex flex-col items-center">
-            <Star size={24} className="text-white mb-1" />
-            <span className="text-white text-xs">Pack Promo</span>
-          </button>
-        </Link>
+        
         {/* Infos */}
         <Link href="/infos">
           <button className="flex flex-col items-center">
@@ -29,6 +23,7 @@ export default function BottomNavigation() {
             <span className="text-white text-xs">Infos</span>
           </button>
         </Link>
+        
         {/* Canal */}
         <Link href="/canal">
           <button className="flex flex-col items-center">
@@ -36,6 +31,7 @@ export default function BottomNavigation() {
             <span className="text-white text-xs">Canal</span>
           </button>
         </Link>
+        
         {/* Contact */}
         <Link href="/contact">
           <button className="flex flex-col items-center">
